@@ -139,6 +139,28 @@ ul {
   padding: 1%;
   clear: both;
 }
+.each-tile{
+  overflow: hidden;
+  height: 250px;
+}
+.hog-image{
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+.tile-details{
+  width: 100%;
+  height: 100%;
+  background-color: #F5A9BC;
+  opacity: 0;
+  transition: .4s ease-out;
+}
+
+.display-details{
+  opacity: .8;
+}
 
 
 @keyframes App-logo-spin {
